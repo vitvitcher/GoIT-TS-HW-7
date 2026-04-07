@@ -54,11 +54,11 @@ function Notes() {
             <div className={css.app}>
                 <header className={css.toolbar}>
                     <SearchBox onChange={handleSearch}></SearchBox>
-                    {/* {isSuccess && totalPages > 1 &&
+                    {isSuccess && totalPages > 1 &&
                         <Pagination
                             currentPage={currentPage}
                             totalPages={totalPages}
-                            onPageChange={setCurrentPage}></Pagination>} */}
+                            onPageChange={setCurrentPage}></Pagination>}
                     <button className={css.button}
                         onClick={() => openModal()}>Create note +</button>
                 </header>
