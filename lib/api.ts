@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Note, NoteBody } from "../types/note.ts"
+import type { Note, NoteBody } from "../types/note.js"
 
 const url = "https://notehub-public.goit.study/api/notes"
 

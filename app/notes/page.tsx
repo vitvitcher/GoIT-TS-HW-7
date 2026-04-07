@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import css from './NotesPage.module.css'
 import toast, { Toaster } from 'react-hot-toast';
-import { fetchNotes } from '../../lib/noteService'
+import { fetchNotes } from '../../lib/api'
 import SearchBox from '../../components/SearchBox/SearchBox';
 import NoteList from '../../components/NoteList/NoteList';
 import Modal from '../../components/Modal/Modal';
